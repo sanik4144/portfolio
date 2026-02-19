@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ShortcutBar = ({ onCommand }) => {
-    const shortcuts = ['about', 'skills', 'projects', 'experience', 'education', 'contact', 'theme'];
+    const shortcuts = ['about', 'skills', 'projects', 'experience', 'education', 'theme'];
 
     return (
         <div className="shortcut-bar" style={{
@@ -31,17 +31,20 @@ const ShortcutBar = ({ onCommand }) => {
                         cursor: 'pointer',
                         fontFamily: 'inherit',
                         fontSize: '0.8rem',
-                        transition: 'all 0.2s ease',
+                        transition: 'all 0.3s ease',
                         textTransform: 'uppercase',
-                        letterSpacing: '1px'
+                        letterSpacing: '1px',
+                        boxShadow: '0 0 5px rgba(0, 212, 255, 0.2)'
                     }}
                     onMouseOver={(e) => {
                         e.target.style.background = 'var(--prompt-color)';
                         e.target.style.color = 'var(--bg-color)';
+                        e.target.style.boxShadow = '0 0 15px var(--prompt-color)';
                     }}
                     onMouseOut={(e) => {
                         e.target.style.background = 'transparent';
                         e.target.style.color = 'var(--prompt-color)';
+                        e.target.style.boxShadow = '0 0 5px rgba(0, 212, 255, 0.2)';
                     }}
                 >
                     {cmd}

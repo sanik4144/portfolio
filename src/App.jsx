@@ -1,9 +1,13 @@
+import Background from './components/Background';
 import TerminalShell from './components/TerminalShell';
 import './index.css';
 
 function App() {
   return (
-    <TerminalShell />
+    <>
+      <Background />
+      <TerminalShell />
+    </>
   );
 }
 

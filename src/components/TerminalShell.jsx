@@ -47,7 +47,8 @@ const TerminalShell = () => {
 
         setCommandHistory(prev => [...prev, trimmedCmd]);
 
-        const [cmd, ...args] = trimmedCmd.split(' ');
+        const [rawCmd, ...args] = trimmedCmd.split(' ');
+        const cmd = rawCmd.toLowerCase();
 
         // Handle special commands that modify shell state
         if (cmd === 'clear') {
@@ -61,15 +62,11 @@ const TerminalShell = () => {
             return;
         }
 
-        // Theme toggle handling could be here or in commands.js, 
-        // but better to implement real logic here if we had global state.
-        // For now, let's just use the output from commands.js
-
         let output;
         if (commands[cmd]) {
             output = commands[cmd].action(args);
         } else {
-            output = <span style={{ color: 'var(--error-color)' }}>command not found: {cmd}</span>;
+            output = <span className="error-text">command not found: {cmd}</span>;
         }
 
         setHistory(prev => [

@@ -22,24 +22,26 @@
     {
       "id": "materials",
       "title": "Materials",
-      "description": "An eCommerce-style project.",
-      "techStack": ["React", "Netlify"],
+      "description": ["A single vendor ecommerce site"],
+      "techStack": ["React", "MongoDB", "Express", "Node", "NPM", "Git"],
       "liveLink": "https://materials4981.netlify.app/",
-      "codeLink": "#"
+      "codeLink": ""
     },
     {
       "id": "inventory",
-      "title": "Product Inventory System (Spring Boot)",
-      "description": "Inventory management system with auth, CRUD operations, and MySQL database.",
-      "techStack": ["Spring Boot", "MySQL", "Java"],
-      "liveLink": "#",
-      "codeLink": "#"
+      "title": "Product Inventory System",
+      "description": ["An inventory management system supporting product creation, tracking, updates, and deletion.",
+                      "Added Spring Security for authentication & authorization and implemented full CRUD REST APIs."],
+      "techStack": ["React", "Spring Boot", "Spring Security","Spring Data JPA", "MySQL", "Maven"],
+      "liveLink": "https://product-inventory-system-frontend.vercel.app/",
+      "codeLink": "https://github.com/sanik4144/ProductInventorySystem"
     },
     {
-      "id": "api-starter",
-      "title": "Express Practice / API Starter",
-      "description": "Backend API starter with REST endpoints and middleware.",
-      "techStack": ["Node.js", "Express.js"],
+      "id": "resume-builder",
+      "title": "Resume Builder",
+      "description": ["A backend tool that generates professional resumes based on structured user input.",
+                      "Building template-based resume generation with flexible data models."],
+      "techStack": ["React","Spring Boot", "Spring Data JPA", "MySQL", "Maven"],
       "liveLink": "#",
       "codeLink": "#"
     }
@@ -47,16 +49,31 @@
   "experience": [
     {
       "company": "Q Bit Learning",
-      "role": "(role placeholder)",
-      "duration": "Present",
-      "details": ["Edit this section"]
+      "role": "Instructor",
+      "duration": "07/2024 - 07/2025",
+      "details": [
+        "Delivered 50+ hours of programming and CS fundamentals sessions to 100+ students.",
+        "Designed and evaluated mock labs and assessments, raising average student performance by 20%.",
+        "Guided students on academic projects, improving debugging and coding confidence.",
+        "Mentored 10+ students individually, helping them debug and optimize real-world projects"
+      ]
     }
   ],
   "education": [
     {
-      "degree": "B.Sc. in Computer Science (Placeholder)",
-      "university": "University of Dhaka (Placeholder)",
-      "year": "2024"
+      "degree": "B.Sc. in Computer Science & Engineering",
+      "university": "Daffodil International University",
+      "year": "2025"
+    },
+    {
+      "degree": "Higher Secondary Certificate (HSC)",
+      "university": "Dhaka College",
+      "year": "2020"
+    },
+    {
+      "degree": "Secondary School Certificate (SSC)",
+      "university": "Hatimara High Schoold",
+      "year": "2018"
     }
   ]
 }

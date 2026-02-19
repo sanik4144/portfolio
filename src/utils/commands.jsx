@@ -5,7 +5,7 @@ import Skills from '../components/sections/Skills';
 import Projects from '../components/sections/Projects';
 import Experience from '../components/sections/Experience';
 import Education from '../components/sections/Education';
-import Contact from '../components/sections/Contact';
+
 
 export const commands = {
   help: {
@@ -28,7 +28,7 @@ export const commands = {
     }
   },
   about: {
-    description: 'Display information about me',
+    description: 'Display info about me and contact details',
     action: () => <About />
   },
   skills: {
@@ -58,10 +58,7 @@ export const commands = {
     description: 'Show educational background',
     action: () => <Education />
   },
-  contact: {
-    description: 'Get contact info',
-    action: () => <Contact />
-  },
+
   social: {
     description: 'List social media profiles',
     action: () => (
