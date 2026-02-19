@@ -1,0 +1,62 @@
+{
+  "name": "Saifullah Anik",
+  "role": "Backend-focused developer (Spring Boot, ExpressJS) + React/Vite frontend",
+  "email": "sanik4144@gmail.com",
+  "socials": {
+    "linkedin": "https://linkedin.com/in/saanik",
+    "facebook": "https://fb.com/sanik4144",
+    "github": "https://github.com/sanik4144"
+  },
+  "about": {
+    "bio": "Backend-focused developer who builds APIs and full-stack apps. Comfortable with Spring Boot, Node/Express, and modern frontend tooling (React + Vite).",
+    "location": "Dhaka, Bangladesh"
+  },
+  "skills": {
+    "backend": ["Java", "Spring Boot", "Node.js", "Express.js", "REST APIs", "Authentication"],
+    "frontend": ["React", "Vite", "HTML", "CSS", "JavaScript"],
+    "database": ["MySQL"],
+    "tools": ["Git", "GitHub", "Postman"],
+    "deployment": ["Netlify", "Render", "Railway"]
+  },
+  "projects": [
+    {
+      "id": "materials",
+      "title": "Materials",
+      "description": "An eCommerce-style project.",
+      "techStack": ["React", "Netlify"],
+      "liveLink": "https://materials4981.netlify.app/",
+      "codeLink": "#"
+    },
+    {
+      "id": "inventory",
+      "title": "Product Inventory System (Spring Boot)",
+      "description": "Inventory management system with auth, CRUD operations, and MySQL database.",
+      "techStack": ["Spring Boot", "MySQL", "Java"],
+      "liveLink": "#",
+      "codeLink": "#"
+    },
+    {
+      "id": "api-starter",
+      "title": "Express Practice / API Starter",
+      "description": "Backend API starter with REST endpoints and middleware.",
+      "techStack": ["Node.js", "Express.js"],
+      "liveLink": "#",
+      "codeLink": "#"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Q Bit Learning",
+      "role": "(role placeholder)",
+      "duration": "Present",
+      "details": ["Edit this section"]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Sc. in Computer Science (Placeholder)",
+      "university": "University of Dhaka (Placeholder)",
+      "year": "2024"
+    }
+  ]
+}
